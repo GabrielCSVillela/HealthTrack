@@ -1,0 +1,114 @@
+.container, .container-fluid {
+  background-color: #c8dcdd;
+  height: 100%;
+}
+
+.row {
+  margin-bottom: 1px;
+  box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;	
+	height: 100%;
+}
+
+header {
+  height: 10%;
+  background-color: #332851;
+  padding: 10px 0;
+  text-align: center;
+}
+
+main {
+  height: 75%;
+  background-color: #c8dcdd;
+  text-align: center;
+}
+
+footer {
+  height: 15%;
+  background-color: #c8dcdd;
+  padding: 10px 0;
+  text-align: center;
+  position: bottom absolute;
+}
+
+h2 {
+  margin-top: auto;
+}
+table {
+  background-color: #ffffff;
+}
+
+#button_header {
+  border-radius: 50%;
+}
+
+#nome, #email, #pwd, #peso, #data {
+  margin: auto;
+  max-width: 480px;
+}
+
+#peso, #data {
+  margin-bottom: 20px;
+}
+
+#botoes_conta a, #button_login {
+  margin: 10px auto 0;
+}
+
+#button_google {
+  margin: 0 10px 0 auto;
+}
+
+#button_facebook {
+  margin: 0 auto 0 10px;
+}
+
+#main_adicionar_peso {
+  padding-top: 20px;
+}
+
+#button_acoes_peso {
+  border-radius: 50%;
+}
+
+#pagina_inicial_conteudo {
+  align-items: center;
+}
+#pagina_inicial_conteudo a {
+  height: 20vh;
+  width: 22vh;
+  margin: auto;
+  background-color: #f6d99f;
+}
+
+h2 {
+  color: #b6e0e0;
+}
+
+h3 {
+  color: #332851;
+}
+
+#pagina_inicial_conteudo h4 {
+  color: #332851;
+}
+
+#atividades_fisicas_conteudo {
+  align-items: center;
+}
+
+#atividades_fisicas_conteudo a {
+  height: 20vh;
+  width: 22vh;
+  text-align: center;
+  background-color: #f6d99f;
+  
+}
+
+#atividades_fisicas_conteudo h4{
+  color: #332851
+}

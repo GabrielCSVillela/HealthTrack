@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <header class="row align-items-start">
+            <div class="col">
+              <button id="button_header" class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#user" aria-controls="offcanvasLeft"><i class="bi bi-house-fill"></i></button>
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="user" aria-labelledby="offcanvasUserLabel">
+              <div class="offcanvas-header">
+                <h5 id="offcanvasUserLabel">Usuário</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="d-grid gap-2">
+                  <button class="btn btn-outline-secondary" type="button">Meu perfil</button>
+                  <button class="btn btn-outline-secondary" type="button">Relatório</button>
+                  <button class="btn btn-outline-secondary" type="button">Lembrete</button>
+                  <a href="index.html" class="btn btn-outline-secondary" type="button">Sair da conta</a>
+                </div>
+              </div>
+              </div>
+             </div>
+            <div class="col">
+              <h2>Home</h2>
+            </div>
+            <div class="col">
+              <button id="button_header" class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#config" aria-controls="offcanvasConfig"><i class="bi bi-gear-fill"></i></button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="config" aria-labelledby="offcanvasConfigLabel">
+                <div class="offcanvas-header">
+                  <h5 id="offcanvasConfigLabel">Configuração</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-outline-secondary" type="button">Opção 1</button>
+                    <button class="btn btn-outline-secondary" type="button">Opção 2</button>
+                    <a href="pagina_login.html" class="btn btn-outline-secondary" type="button">Voltar para Login</a>
+                    <a href="index.html" class="btn btn-outline-secondary" type="button">Voltar para Criação de Conta</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </header>
+      <main id="pagina_inicial_conteudo" class="row row-cols-2">
+        <div class="col">
+          <a href="caloria.html" type="button" class="btn btn-dark"><h4>Refeições</h4></a>
+        </div>
+        <div class="col">
+          <a href="lista_pesos.html" type="button" class="btn btn-dark"><h4>Peso</h4></a>
+        </div>
+        <div class="col">
+          <a href="atividades_fisicas.html" type="button" class="btn btn-dark"><h4>Exercício</h4></a>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
